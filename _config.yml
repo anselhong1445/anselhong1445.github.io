@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
-url: # the base hostname & protocol for your site
+title: Sangsik Hong's portfolios
+email: anselhong1445@gmail.com
+description: A personal archive of programming-related knowledge and tasks that have been studied and learned
+url: https://anselhong1445.github.io/ # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
 #
@@ -14,11 +14,11 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
-markdown:          kramdown
-highlighter:       rouge
+timezone: Europe/Paris
+markdown: kramdown
+highlighter: rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink: /articles/:year-:month/:title
 
 kramdown:
   auto_ids: true
@@ -33,28 +33,28 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
-  disqus-shortname:
+  name: Sangsik Hong
+  avatar: hongddol.png
+  job: "Software Engineer"
+  bio: "Words 'geek' and 'nerd' equal 'unquenchable thrist for knowledge'"
+  ? email
+  ? disqus-shortname
   twitter: #username
-  facebook: #username
+  facebook: rlawmwm #username
   google:
     plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: #username
+    ? analytics
+    ? verify
+    ? ad-client
+    ? ad-slot
+  ? bing-verify
+  github: anselhong1445 #username
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: sangsik-hong #username
   skype: #username
   xing: #username
-  instagram: #username
+  instagram: ohmyhongddol_ #username
   lastfm: #username
   tumblr: #username
   pinterest: #username
