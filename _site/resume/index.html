@@ -171,36 +171,38 @@
     <div class="col l4 offset-l1">
         <div class="row">
             <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-<h1><span data-i18n="skills.my_skills">Skills</span></h1>
-<canvas id="cs" height="500" width="500"></canvas>    
+<h1>
+    <span data-i18n="skills.my_skills">Skills</span>
+</h1>
+<canvas id="cs" height="500" width="500"></canvas>
 <script>
     var ctx = document.getElementById("cs");
     var data = {
-    labels: "Motivation, GitHub, Java, HTML/CSS, Docker, Python".split(","),
-    datasets: [{
-        label: "Ability",
-        backgroundColor: "rgba(179,181,198,0.2)",
-        borderColor: "#3385FF",
-        pointBackgroundColor: "#3385FF",
-        pointBorderColor: "#fff",
-        pointHoverBackgroundColor: "#3385FF",
-        pointHoverBorderColor: "#3385FF",
-        data: [100, 65, 70, 60, 60, 55]
-        }]
+        labels: "Motivation, GitHub, HTML/CSS, Javscript/jQuery, Node.js, React.js, Vue.js, Python".split(","),
+        datasets: [{
+            label: "Ability",
+            backgroundColor: "rgba(179,181,198,0.2)",
+            borderColor: "#3385FF",
+            pointBackgroundColor: "#3385FF",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#3385FF",
+            pointHoverBorderColor: "#3385FF",
+            data: [100, 40, 70, 60, 20, 10, 30, 10]
+    }]
     };
     var myRadarChart = new Chart(ctx, {
-    type: 'radar',
-    data: data,
-    options: {
-        scale: {
-            responsive: true,
-            ticks: {min: 0, max: 100},
-            lineArc: false,
-            pointLabels: {fontSize: 14},
-        },
-        scaleFontSize: 0,
-        legend: {display: false},
-    }
+        type: 'radar',
+        data: data,
+        options: {
+            scale: {
+                responsive: true,
+                ticks: { min: 0, max: 100 },
+                lineArc: false,
+                pointLabels: { fontSize: 14 },
+            },
+            scaleFontSize: 0,
+            legend: { display: false },
+        }
     });
 </script>    
         </div>
@@ -210,25 +212,35 @@
 <div class="archive">
   <div class="timeline" id="timeline">
     
-          <div class="archive-title"><div class="archive-year"><strong>July 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong> Programming Internship @ <a href="http://www.google.com/">Google</a></div></div>
-    
-          <div class="archive-title"><div class="archive-year"><strong>May 2014 - July 2017</strong> Web Assistant @ <a href="http://www.facebook.com/">Facebook</a></div></div>
-    
-          <div class="archive-title"><div class="archive-year"><strong>2010 - 2014</strong> Software Developer @ <a href="https://www.sap.com/">SAP</a></div></div>
+          <div class="archive-title"><div class="archive-year"><strong>Dec 2016 - Apr 2017</strong> Web Developer @ <a href="https://www.sap.com/">DONGWOO FINE-CHEM CO.,</a></div></div>
     
   </div>
 </div>    
         </div>
         <div class="row">
             <div class="navy-line"></div>
-<h1><span data-i18n="skills.my_skills">Education</span></h1>
+<h1>
+  <span data-i18n="skills.my_skills">Education</span>
+</h1>
 
 <div class="archive">
   <div class="timeline" id="timeline">
     
-          <div class="archive-title bio"><div class="archive-year"><strong>2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong> <a href="http://web.mit.edu/">Massachusets Instutite of Technology</a></div></div>
+    <div class="archive-title bio">
+      <div class="archive-year">
+        <strong>2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong>
+        <a href="http://www.senecacollege.ca/home.html">Seneca College</a>
+        <br> - studying in CPA (Computer Programming and Analysis) program <br> - (expected graduation in 2019)
+      </div>
+    </div>
     
-          <div class="archive-title bio"><div class="archive-year"><strong>2007 - 2011</strong> <a href="http://www.harvard.edu/">Harvard</a></div></div>
+    <div class="archive-title bio">
+      <div class="archive-year">
+        <strong>2008 - 2017</strong>
+        <a href="http://www.dankook.ac.kr/web/international">Dankook University</a>
+        <br> - have studied in "Software Science" department for 4 years (8 terms) <br> - have acquired a degree of Bachelor of Engineering - BE, Computer Science
+      </div>
+    </div>
     
   </div>
 </div>    
