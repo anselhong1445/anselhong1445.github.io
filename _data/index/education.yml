@@ -1,12 +1,14 @@
 - name: Seneca College
   link: http://www.senecacollege.ca/home.html
   date: 2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> - studying in CPA (Computer Programming and Analysis) program
+  descr: 
+    <br> - studying in CPD (Computer Programmer - 4 terms long) program
+    <br> - have completed  upto the 2nd semester (GPA 3.90/4.00)
     <br> - (expected graduation in 2019)
 
 - name: Dankook University
   link: http://www.dankook.ac.kr/web/international
   date: 2008 - 2017
   descr:
-    <br> - have studied in "Software Science" department for 4 years (8 terms)
+    <br> - have studied in "Software Science" department for 4 years (8 terms) with GPA 3.90/4.00
     <br> - have acquired a degree of Bachelor of Engineering - BE, Computer Science

@@ -1,4 +1,4 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+- name: My GitHub Pages
+  descr: "Create and maintain GitHub Pages to manage portfolios, which is powered by Jekyll and Leonids (Jekyll theme)."
   image: pong.png
-  github: https://github.com/renyuanz/leonids
+  github: https://github.com/anselhong1445/anselhong1445.github.io
