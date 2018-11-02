@@ -75,13 +75,9 @@
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
-        <a href="http://localhost:4000/">home</a>
+        <a href="http://localhost:4000/">resume</a>
       </li>
-             
-      <li class="nav-item">
-        <a href="http://localhost:4000/resume/">Resume</a>
-      </li>
-         
+              
     </ul>
   </nav>
   <script type="text/javascript">
@@ -132,253 +128,121 @@
     </div>
     <div class="col s12 m9">
       <div class="post-listing">
+        <div class="row">
+    <div class="col l7">
+        <div class="row">
+            <div class="col">
+                <h1><span data-i18n="skills.my_skills">About</span></h1>
+
+<div>
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</div>        
+            </div>
+        </div>
         
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        18 AUG 2015
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#tutorial">tutorial</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2015-08/welcome-to-jekyll" class="post-title" title="Welcome to Jekyll!">Welcome to Jekyll!</a>
-      
-    </h4>
+        <div class="row">
+            <div class="col">
+                <h1><span data-i18n="skills.my_skills">Projects</span></h1>
 
+
+    <div class="row">
+            <div class="col">
+                <h2 style="margin: 0">leonids</h2>
+                <p style="margin: 0">Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone.</p>
+
+                
+                <a href="https://github.com/renyuanz/leonids "><i class="fa fa-fw fa-github"></i>GitHub</a>
+                
+                
+
+            </div>
+    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col l4 offset-l1">
+        <div class="row">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+<h1>
+    <span data-i18n="skills.my_skills">Skills</span>
+</h1>
+<canvas id="cs" height="500" width="500"></canvas>
+<script>
+    var ctx = document.getElementById("cs");
+    var data = {
+        labels: "Passion, GitHub, HTML/CSS, Vanilla Javascript, Node.js, Vue/Nuxt.js, C/C++, C#/ASP.NET".split(","),
+        datasets: [{
+            label: "Ability",
+            backgroundColor: "rgba(179,181,198,0.2)",
+            borderColor: "#3385FF",
+            pointBackgroundColor: "#3385FF",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#3385FF",
+            pointHoverBorderColor: "#3385FF",
+            data: [100, 50, 70, 70, 50, 50, 70, 60]
+    }]
+    };
+    var myRadarChart = new Chart(ctx, {
+        type: 'radar',
+        data: data,
+        options: {
+            scale: {
+                responsive: true,
+                ticks: { min: 0, max: 100 },
+                lineArc: false,
+                pointLabels: { fontSize: 14 },
+            },
+            scaleFontSize: 0,
+            legend: { display: false },
+        }
+    });
+</script>    
+        </div>
+        <div class="row">
+            <h1><span data-i18n="skills.my_skills">Bio</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
     
-
-    </header>
-
+          <div class="archive-title"><div class="archive-year"><strong>Dec 2016 - Apr 2017</strong> Web Developer @ <a href="https://www.dwchem.co.kr/">DONGWOO FINE-CHEM CO.,</a></div></div>
     
-    <div class="post-description">
-      <p>
-        <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+  </div>
+</div>    
+        </div>
+        <div class="row">
+            <div class="navy-line"></div>
+<h1>
+  <span data-i18n="skills.my_skills">Education</span>
+</h1>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-
-      </p>
+<div class="archive">
+  <div class="timeline" id="timeline">
+    
+    <div class="archive-title bio">
+      <div class="archive-year">
+        <strong>2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong>
+        <a href="http://www.senecacollege.ca/home.html">Seneca College</a>
+        <br> - studying in CPA (Computer Programming and Analysis) program <br> - (expected graduation in 2019)
+      </div>
+    </div>
+    
+    <div class="archive-title bio">
+      <div class="archive-year">
+        <strong>2008 - 2017</strong>
+        <a href="http://www.dankook.ac.kr/web/international">Dankook University</a>
+        <br> - have studied in "Software Science" department for 4 years (8 terms) <br> - have acquired a degree of Bachelor of Engineering - BE, Computer Science
+      </div>
+    </div>
+    
+  </div>
+</div>    
+        </div>
     </div>
     
 
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        16 AUG 2013
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#code">code</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2013-08/code-highlighting-post" class="post-title" title="Syntax Highlighting Post">Syntax Highlighting Post</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        Demo post displaying the various ways of highlighting code in Markdown.
-      </p>
-    </div>
-    
-
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        12 AUG 2013
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#link post">link post</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2013-08/sample-link-post" class="post-title" title="Sample Link Post">Sample Link Post</a>
-      
-      <a class="post-title-link" href="http://renyuanz.github.io" target="_blank" title="Sample Link Post"><i class="fa fa-external-link"></i></a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        Try click on the link icon.
-      </p>
-    </div>
-    
-
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        23 MAY 2013
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#paragraph">paragraph</a>
-        
-        <span>/</span>
-        
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#feature photo">feature photo</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2013-05/readability-feature-post" class="post-title" title="Post with Large Feature Image and Text">Post with Large Feature Image and Text</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        Custom written post descriptions are the way to go... if you're not lazy.
-      </p>
-    </div>
-    
-
-    
-    <div class="post-image-feature">
-      <img src=
-      
-      "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250"
-      
-      alt="Post with Large Feature Image and Text feature image">
-
-      
-      <span class="image-credit">Photo Credit: <a href="https://unsplash.com/photos/oMpAz-DN-9I">Greg Rakozy</a></span>
-      
-    </div><!-- /.image-wrap -->
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        22 MAY 2012
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#paragraph">paragraph</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2012-05/readability-post" class="post-title" title="Testing &quot;Readability&quot; with a Bunch of Text">Testing "Readability" with a Bunch of Text</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        A ton of text to test readability.
-      </p>
-    </div>
-    
-
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        10 MAR 2011
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#hello world">hello world</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2011-03/sample-post" class="post-title" title="Sample Post">Sample Post</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.
-      </p>
-    </div>
-    
-
-    
-    <div class="post-image-feature">
-      <img src=
-      
-      "https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250"
-      
-      alt="Sample Post feature image">
-
-      
-      <span class="image-credit">Photo Credit: <a href="https://unsplash.com/photos/Ki0dpxd3LGc">thomas shellberg</a></span>
-      
-    </div><!-- /.image-wrap -->
-    
-
-</section>
-
- <footer>
+</div> <footer>
   &copy; 2018 Sangsik Hong
   <br> This website is powered by
   <a href="http://jekyllrb.com/">Jekyll</a>,
