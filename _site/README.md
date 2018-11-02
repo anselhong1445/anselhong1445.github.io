@@ -12,7 +12,7 @@ bundle exec jekyll server
 
 (installing Ruby development environment and Jekyll is required in advance, see **[instructions for installation.](https://jekyllrb.com/docs/)**)
 
-Then open http://localhost:4000/ to see your app.
+Then open http://localhost:4000/ to see the app.
 
 ## Lincense
 
