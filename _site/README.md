@@ -1,6 +1,6 @@
 # My GitHub Pages [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action) [![HitCount](http://hits.dwyl.io/anselhong1445/anselhong1445.github.io.svg)](http://hits.dwyl.io/anselhong1445/anselhong1445.github.io) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
-This (https://anselhong1445.github.io/) is my GitHub Pages to manage portfolios, which is powered by **[Jekyll](https://jekyllrb.com)** and **[Leonids](http://renyuanz.github.io/leonids)** (Jekyll theme).
+This (https://anselhong1445.github.io/) is my GitHub Pages to manage portfolios, which is powered by **[Jekyll](https://jekyllrb.com)** and **[Leonids](https://github.com/renyuanz/leonids)** (Jekyll theme).
 
 ## Quick Overview
 ### Get Started
