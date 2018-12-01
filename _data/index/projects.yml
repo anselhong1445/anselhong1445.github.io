@@ -1,4 +1,9 @@
 - name: My GitHub Pages
-  descr: "Create and maintain GitHub Pages to manage portfolios, which is powered by Jekyll and Leonids (Jekyll theme)."
+  descr: "To create and maintain GitHub Pages to manage portfolios, which is powered by Jekyll and Leonids (Jekyll theme)."
   image: pong.png
   github: https://github.com/anselhong1445/anselhong1445.github.io
+
+  - name: Text Messaging Web App Design
+  descr: "To design UI of text messaging web application using HTML + CSS. (IN PROCESS)"
+  image: pong.png
+  github: https://github.com/anselhong1445/text-messaging-web-app-design
