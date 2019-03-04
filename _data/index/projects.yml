@@ -10,6 +10,6 @@
   github: https://github.com/anselhong1445/text-messaging-web-app-design
 
 - name: Human Resource Management site (IN PROGRESS)
-  descr: "To have developed a site to manage human resource info using Node.js/Express.js + Handlebars.js (template engine)"
+  descr: "To have developed a site to manage human resource info using Node.js/Express.js + Handlebars.js (template engine)."
   image: pong.png
   website: https://calm-chamber-93373.herokuapp.com
