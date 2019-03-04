@@ -2,3 +2,8 @@
   descr: "The post compares few approaches to create React apps with respect to how many root elements to which React renders and mounts React elements or components."
   image: pong.png
   codepen: https://codepen.io/anselhong1445/post/react-create-an-app-with-one-single-hook
+
+- name: Document - Concepts of OAuth 2.0
+  descr: "The document has been written by translating, outlining, and spicing up the original contents of the public online course 'WEB2 - OAuth 2.0' by 'opentutorials' in compliance with Creative Commons license (By)"
+  image: pong.png
+  github: https://github.com/anselhong1445/OAuth-2.0-Concepts
