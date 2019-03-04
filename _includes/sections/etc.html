@@ -1,0 +1,17 @@
+<h1><span data-i18n="skills.my_skills">Etc.</span></h1>
+<hr />
+{% for item in site.data.index.etc %}
+<div class="row">
+  <div class="col">
+    <h5 style="margin: 0">{{ item.name }}</h5>
+    <p style="margin: 0">{{ item.descr }}</p>
+
+    {% if item.codepen %}
+    <a style="color: #aa22ff" href="{{ item.codepen }} "
+      ><i class="fa fa-fw fa-codepen"></i>Codepen</a
+    >
+    {% endif %}
+  </div>
+</div>
+<br />
+{% endfor %}
