@@ -2,8 +2,8 @@
 
 label: Ability
 id: cs
-aspects: Passion, GitHub, HTML/CSS, Javascript, Node.js, React.js, Vue/Nuxt.js, C/C++, C#/ASP.NET
-percentage: 100, 60, 80, 80, 60, 60, 60, 60, 60
+aspects: Passion, C/C++/Java/C#, Javascript/jQuery, ASP.NET/Node.js, React.js/Vue.js/Nuxt.js, GitHub, IBM iSeries, MongoDB/SQL/PostgreSQL 
+percentage: 100, 70, 70, 70, 60, 60, 60, 60
 
 # skills to add on the list in the future
 # jQeury, Python
